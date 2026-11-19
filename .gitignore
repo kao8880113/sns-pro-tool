@@ -1,0 +1,23 @@
+# APIキー(絶対に公開しない)
+.env
+
+# お店の情報・メモ(個人情報や実際のお店の情報が入るため)
+stores.json
+trend_memo.json
+
+# CSV(実際のインサイトデータ)。サンプルだけは公開する
+*.csv
+!sample_insights.csv
+
+# バックアップ・作業用ファイル
+*.bak
+*.tmp
+app_before_*.py
+app_min.py
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
